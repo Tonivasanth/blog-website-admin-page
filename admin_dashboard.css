@@ -1,0 +1,165 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #eef5ff;
+  margin: 0;
+}
+
+.header {
+  background-color: #0059b3;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 25px;
+}
+
+.header-buttons a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+/* Message */
+.message-button {
+  background-color: #17a2b8;
+  color: white;
+}
+.message-button:hover {
+  background-color: #117a8b;
+}
+
+/* Recheck */
+.recheck-page {
+  background-color: #ffc107 !important;
+  color: #333 !important;
+}
+.recheck-page:hover {
+  background-color: #e0a800 !important;
+  color: #fff !important;
+}
+
+/* Approval Blogs */
+.approval-button {
+  background-color: #28a745;
+  color: white;
+}
+.approval-button:hover {
+  background-color: #1e7e34;
+}
+
+/* Logout */
+.logout-button {
+  background-color: #ff4444;
+  color: white;
+}
+.logout-button:hover {
+  background-color: #cc0000;
+}
+
+/* Icons */
+.header-buttons i {
+  font-size: 18px;
+}
+
+/* Container & Table */
+.container {
+  padding: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+}
+
+th {
+  background-color: #cce0ff;
+  color: #003366;
+}
+
+.title-btn {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.title-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Approve */
+.approve-btn {
+  background-color: #28a745;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.approve-btn:hover {
+  background-color: #218838;
+}
+
+/* Remove */
+.btn-delete {
+  background: #dc3545;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.btn-delete:hover {
+  background: #c82333;
+}
+
+.alert {
+    padding: 12px 20px;
+    border-radius: 6px;
+    margin: 15px auto;
+    width: 90%;
+    max-width: 800px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.alert-success {
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.alert-danger {
+    background: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
